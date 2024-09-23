@@ -16,9 +16,9 @@ public class BOJ2675 {
             st = new StringTokenizer(br.readLine());
             int R = Integer.parseInt(st.nextToken());
             char[] text = st.nextToken().toCharArray();
-            for(int j=0;j<text.length;j++){
-                for(int k=0;k<R;k++) {
-                    System.out.print(text[j]);
+            for (char c : text) {
+                for (int k = 0; k < R; k++) {
+                    System.out.print(c);
                 }
             }
             System.out.println();
