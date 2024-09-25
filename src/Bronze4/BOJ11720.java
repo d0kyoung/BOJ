@@ -12,8 +12,8 @@ public class BOJ11720 {
         StringTokenizer st = new StringTokenizer(br.readLine());
         char[] arr = st.nextToken().toCharArray();
         int sum = 0;
-        for(int i=0;i<arr.length;i++) {
-            sum += Integer.parseInt(String.valueOf(arr[i]));
+        for (char c : arr) {
+            sum += Integer.parseInt(String.valueOf(c));
             System.out.print(sum + " ");
         }
         System.out.println(sum);
